@@ -1,0 +1,24 @@
+{
+  "name": "dbunicorn",
+  "version": "0.0.1-alpha",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dbUnicorn:build": "tsc",
+    "dbUnicorn:start": "npm run dbUnicorn:build && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "@types/pg": "^8.15.4",
+    "electron": "^37.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "pg": "^8.16.3",
+    "sqlite3": "^5.1.7"
+  }
+}
